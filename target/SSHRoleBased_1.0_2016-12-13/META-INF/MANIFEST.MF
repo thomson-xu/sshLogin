@@ -1,0 +1,12 @@
+Manifest-Version: 1.0
+Implementation-Title: SSHRoleBased
+Implementation-Version: 1.0
+Build-Number: 1.0
+Built-By: Test-Lab
+Specification-Title: SSHRoleBased
+Implementation-Vendor-Id: com.websystique.springsecurity
+Created-By: IntelliJ IDEA
+Build-Jdk: 1.7.0_79
+Specification-Version: 1.0
+Timestamp: 2016-12-13
+
