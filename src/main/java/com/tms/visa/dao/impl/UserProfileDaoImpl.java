@@ -1,15 +1,17 @@
-package com.tms.visa.dao;
+package com.tms.visa.dao.impl;
 
 import java.util.List;
 
 import javax.persistence.NoResultException;
 
+import com.tms.visa.dao.AbstractDao;
+import com.tms.visa.dao.UserProfileDao;
 import com.tms.visa.model.UserProfile;
 import org.springframework.stereotype.Repository;
 
 
 @Repository("userProfileDao")
-public class UserProfileDaoImpl extends AbstractDao<Integer, UserProfile>implements UserProfileDao{
+public class UserProfileDaoImpl extends AbstractDao<Integer, UserProfile> implements UserProfileDao {
 
 	public UserProfile findById(int id) {
 		return getByKey(id);

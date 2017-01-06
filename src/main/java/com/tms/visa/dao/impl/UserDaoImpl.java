@@ -1,10 +1,12 @@
-package com.tms.visa.dao;
+package com.tms.visa.dao.impl;
 
 import java.util.Collection;
 import java.util.List;
 
 import javax.persistence.NoResultException;
 
+import com.tms.visa.dao.AbstractDao;
+import com.tms.visa.dao.UserDao;
 import org.springframework.stereotype.Repository;
 
 import com.tms.visa.model.User;
